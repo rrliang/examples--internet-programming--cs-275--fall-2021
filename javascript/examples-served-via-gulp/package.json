@@ -1,0 +1,49 @@
+{
+  "name": "examples-served-via-gulp",
+  "version": "4.0.2",
+  "description": "An automation template for CS 275’s in-class examples.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-warrior/https://github.com/code-warrior/examples--internet-programming--cs-275--fall-2021.git"
+  },
+  "keywords": [
+    "gulp",
+    "automation",
+    "template",
+    "html",
+    "css",
+    "sass",
+    "javascript"
+  ],
+  "author": "Roy Vanegas",
+  "license": "ISC",
+  "contributors": [
+    {
+      "name": "Roy Vanegas",
+      "email": "roy@thecodeeducators.com",
+      "url": "http://roy.vanegas.org"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/code-warrior/examples--internet-programming--cs-275--fall-2021/issues"
+  },
+  "homepage": "https://github.com/code-warrior/examples--internet-programming--cs-275--fall-2021#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-html": "^3.5.0",
+    "gulp-stylelint": "^13.0.0"
+  },
+  "dependencies": {
+    "stylelint": "^13.13.1"
+  }
+}
