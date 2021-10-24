@@ -55,18 +55,16 @@ let serve = () => {
 async function clean() {
     let fs = require(`fs`),
         i,
-        foldersToDelete = [`.tmp`, `prod`];
+        tempFolder = `.tmp`;
 
-    for (i = 0; i < foldersToDelete.length; i++) {
-        try {
-            fs.accessSync(foldersToDelete[i], fs.F_OK);
-            process.stdout.write(`\n\tThe ` + foldersToDelete[i] +
-                ` directory was found and will be deleted.\n`);
-            del(foldersToDelete[i]);
-        } catch (e) {
-            process.stdout.write(`\n\tThe ` + foldersToDelete[i] +
-                ` directory does NOT exist or is NOT accessible.\n`);
-        }
+    try {
+        fs.accessSync(`.tmp`, fs.F_OK);
+        process.stdout.write(`\n\tThe ${tempFolder}` +
+            ` directory was found and will be deleted.\n`);
+            del(tempFolder);
+    } catch (e) {
+        process.stdout.write(`\n\tThe ${tempFolder}` +
+        ` directory does NOT exist or is NOT accessible.\n`);
     }
 
     process.stdout.write(`\n`);
