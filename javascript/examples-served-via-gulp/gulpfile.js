@@ -31,7 +31,7 @@ let lintJS = () => {
 let transpileJS = () => {
     return src(`examples/**/*.js`)
         .pipe(babel())
-        .pipe(dest(`temp/scripts`));
+        .pipe(dest(`.tmp/scripts`));
 };
 
 let serve = () => {
@@ -41,7 +41,7 @@ let serve = () => {
         browser: `default`, // `brave browser`, `google chrome`, `microsoft edge` (In Windows, this might need to be microsoft-edge), `firefox`, `opera`, `safari`, `vivaldi`
         server: {
             baseDir: [
-                `temp`,
+                `.tmp`,
                 `examples`
             ]
         }
@@ -55,7 +55,7 @@ let serve = () => {
 async function clean() {
     let fs = require(`fs`),
         i,
-        foldersToDelete = [`./temp`, `prod`];
+        foldersToDelete = [`.tmp`, `prod`];
 
     for (i = 0; i < foldersToDelete.length; i++) {
         try {
