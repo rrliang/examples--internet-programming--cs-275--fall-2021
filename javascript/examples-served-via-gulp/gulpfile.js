@@ -1,4 +1,4 @@
-const { src, dest, series, watch } = require(`gulp`),
+const { src, dest, watch } = require(`gulp`),
     CSSLinter = require(`gulp-stylelint`),
     del = require(`del`),
     babel = require(`gulp-babel`),
