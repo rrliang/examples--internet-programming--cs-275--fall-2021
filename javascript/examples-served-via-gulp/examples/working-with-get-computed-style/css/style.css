@@ -1,0 +1,15 @@
+p {
+  padding: 20px;
+}
+
+p:nth-child(2) {
+  display: none;
+}
+
+p:nth-child(2) {
+  background-color: red;
+}
+
+p:nth-child(3) {
+  background-color: green;
+}
