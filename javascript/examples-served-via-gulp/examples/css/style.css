@@ -1,6 +1,50 @@
+body {
+  color: #444;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+}
+
 code {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: #db7093ff;
+}
+
+ul {
+
+}
+
+ul li {
+  margin: 4px;
+}
+
+abbr {
+  text-decoration-style: wavy;
+  text-decoration-color: #ddd;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+main p::after {
+  content: ' ❡';
 }
