@@ -46,9 +46,9 @@ window.onload = () => {
     try {
         message.innerHTML = `<p>The dog emoji: ${emojis.dog}</p>`;
         message.innerHTML += `<p>I can also use emojis to index a location in an object. <code>emojis[\`🕷👨🏽\`]</code> rightfully returns ${emojis[`🕷👨🏽`]}</p>`;
-        message.innerHTML += `<p>${emojis.faces[0]}</p>`;
-        message.innerHTML += `<p>${emojis.faces[1]}</p>`;
         message.innerHTML += `<p>Sometimes I just want to ${emojis.faces[0]}`;
+        message.innerHTML += `<p>The crying emoji: ${emojis.faces[0]}</p>`;
+        message.innerHTML += `<p>The fuming emoji: ${emojis.faces[1]}</p>`;
         for ( let i = 0; i < emojis.faces.length; i++ ) {
             message.innerHTML += `<p>${emojis.faces[i]}</p>`;
         }
