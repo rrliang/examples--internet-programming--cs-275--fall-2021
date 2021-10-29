@@ -55,8 +55,6 @@ window.onload = () => {
         message.innerHTML += `<p>There are ${fall2021.attendance.length} objects in <code>fall2021</code></p>`;
         message.innerHTML += `<p>${fall2021.attendance[0][`august`][0][`24`]}</p>`;
         message.innerHTML += `<p>${fall2021.attendance[1][`september`][0]}</p>`;
-
-
     } catch(error) {
         message.textContent = `Error: ${error}`;
     }
