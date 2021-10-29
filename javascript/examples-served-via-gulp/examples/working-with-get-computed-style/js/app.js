@@ -1,6 +1,6 @@
 window.onload = () => {
     let button = document.querySelector(`button`);
-    let paragraphs = document.getElementsByTagName(`p`);
+    let paragraphs = document.querySelectorAll(`main p`);
 
     button.addEventListener(`click`, () => {
         if (`block` === getComputedStyle(paragraphs[0]).getPropertyValue(`display`)) {
