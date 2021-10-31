@@ -9,6 +9,10 @@ header {
   text-align: center;
 }
 
+h1 {
+  font-weight: 400;
+}
+
 code {
   color: #666;
   border: 1px solid #ccc;
