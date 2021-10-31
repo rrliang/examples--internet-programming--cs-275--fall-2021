@@ -41,10 +41,10 @@ abbr {
   text-decoration-color: #ddd;
 }
 
-.small-caps {
-  font-variant: small-caps;
-}
-
 main p::after {
   content: ' ❡';
+}
+
+.small-caps {
+  font-variant: small-caps;
 }
