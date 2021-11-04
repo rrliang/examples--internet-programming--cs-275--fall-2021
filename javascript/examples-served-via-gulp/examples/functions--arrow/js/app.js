@@ -96,10 +96,10 @@ Click the body to see the following example.\n
     }
 
     // function createTeacher () {
-    //     this.firstName = "Edna";
-    //     this.lastName = "Krabappel";
+    //     this.firstName = `Edna`;
+    //     this.lastName = `Krabappel`;
     //
-    //     document.addEventListener("click", () => {
+    //     document.addEventListener(`click`, () => {
     //         console.log(`My name is ${this.firstName} ${this.lastName}.`);
     //     }, false);
     // }
