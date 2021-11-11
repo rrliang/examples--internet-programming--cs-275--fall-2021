@@ -4,7 +4,7 @@ let paths = {
     dev: `dev`,
     html: `dev/html`,
     styles: `dev/styles`,
-    js: `dev/js`,
+    js: `dev/scripts`,
     images: `dev/img`
 };
 
