@@ -45,6 +45,12 @@ main p::after {
   content: ' ❡';
 }
 
+#image--image-follows-mouse-example {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
 .small-caps {
   font-variant: small-caps;
 }
